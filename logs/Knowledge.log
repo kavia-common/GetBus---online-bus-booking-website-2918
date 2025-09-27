@@ -1,0 +1,270 @@
+2025-09-27 09:01:22,527 - Knowledge - INFO - Redis support added with prefix knowledge:b6284pc:
+2025-09-27 09:01:22,776 - Knowledge - INFO - load persisted knowledge: begin
+2025-09-27 09:01:22,908 - Knowledge - INFO - load persisted knowledge: end
+2025-09-27 09:01:23,015 - Knowledge - INFO - load persisted docinfo: begin
+2025-09-27 09:01:23,104 - Knowledge - INFO - load persisted docinfo: end
+2025-09-27 09:01:23,208 - Knowledge - INFO - worker kw1 created with dedicated MongoDB connection (total: 1)
+2025-09-27 09:01:23,311 - Knowledge - INFO - knowledge worker kw1 start
+2025-09-27 09:01:23,313 - Knowledge - INFO - worker kw2 created with dedicated MongoDB connection (total: 2)
+2025-09-27 09:01:23,408 - Knowledge - INFO - worker kw1 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html from ingest queue
+2025-09-27 09:01:23,508 - Knowledge - INFO - knowledge worker kw2 start
+2025-09-27 09:01:23,511 - Knowledge - INFO - worker kw3 created with dedicated MongoDB connection (total: 3)
+2025-09-27 09:01:23,624 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html
+2025-09-27 09:01:23,714 - Knowledge - INFO - worker kw2 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css from ingest queue
+2025-09-27 09:01:23,825 - Knowledge - INFO - knowledge worker kw3 start
+2025-09-27 09:01:23,827 - Knowledge - INFO - worker kw4 created with dedicated MongoDB connection (total: 4)
+2025-09-27 09:01:23,920 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:24,334 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:24,120 - Knowledge - INFO - worker kw3 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css from ingest queue
+2025-09-27 09:01:24,232 - Knowledge - INFO - knowledge worker kw4 start
+2025-09-27 09:01:24,233 - Knowledge - INFO - worker kw5 created with dedicated MongoDB connection (total: 5)
+2025-09-27 09:01:24,064 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css
+2025-09-27 09:01:24,411 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html
+2025-09-27 09:01:24,519 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css
+2025-09-27 09:01:24,621 - Knowledge - INFO - worker kw4 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php from ingest queue
+2025-09-27 09:01:24,726 - Knowledge - INFO - knowledge worker kw5 start
+2025-09-27 09:01:24,728 - Knowledge - INFO - worker kw6 created with dedicated MongoDB connection (total: 6)
+2025-09-27 09:01:24,821 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:25,002 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html to ingest queue
+2025-09-27 09:01:25,137 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php
+2025-09-27 09:01:25,327 - Knowledge - INFO - knowledge worker kw6 start
+2025-09-27 09:01:25,328 - Knowledge - INFO - worker kw7 created with dedicated MongoDB connection (total: 7)
+2025-09-27 09:01:25,427 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:25,546 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:25,547 - Knowledge - INFO - worker kw5 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css from ingest queue
+2025-09-27 09:01:25,547 - Knowledge - INFO - worker kw1 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql from ingest queue
+2025-09-27 09:01:25,642 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:25,727 - Knowledge - INFO - worker kw6 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html from ingest queue
+2025-09-27 09:01:25,847 - Knowledge - INFO - knowledge worker kw7 start
+2025-09-27 09:01:25,850 - Knowledge - INFO - worker kw8 created with dedicated MongoDB connection (total: 8)
+2025-09-27 09:01:25,962 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css
+2025-09-27 09:01:26,063 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:26,170 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css
+2025-09-27 09:01:26,273 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql
+2025-09-27 09:01:26,352 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:26,462 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html
+2025-09-27 09:01:26,520 - Knowledge - INFO - worker kw7 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php from ingest queue
+2025-09-27 09:01:26,640 - Knowledge - INFO - knowledge worker kw8 start
+2025-09-27 09:01:26,643 - Knowledge - INFO - worker kw9 created with dedicated MongoDB connection (total: 9)
+2025-09-27 09:01:26,789 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css to ingest queue
+2025-09-27 09:01:26,851 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css
+2025-09-27 09:01:27,144 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php
+2025-09-27 09:01:27,345 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php
+2025-09-27 09:01:27,521 - Knowledge - INFO - knowledge worker kw9 start
+2025-09-27 09:01:27,523 - Knowledge - INFO - worker kw10 created with dedicated MongoDB connection (total: 10)
+2025-09-27 09:01:27,609 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:27,609 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:27,610 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:27,611 - Knowledge - INFO - worker kw8 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css from ingest queue
+2025-09-27 09:01:27,611 - Knowledge - INFO - worker kw2 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html from ingest queue
+2025-09-27 09:01:27,746 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css to ingest queue
+2025-09-27 09:01:28,123 - Knowledge - INFO - knowledge worker kw10 start
+2025-09-27 09:01:28,125 - Knowledge - INFO - worker kw11 created with dedicated MongoDB connection (total: 11)
+2025-09-27 09:01:28,224 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:29,006 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css
+2025-09-27 09:01:28,418 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:28,533 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css
+2025-09-27 09:01:28,637 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html
+2025-09-27 09:01:28,768 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:28,768 - Knowledge - INFO - worker kw9 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php from ingest queue
+2025-09-27 09:01:28,768 - Knowledge - INFO - worker kw3 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css from ingest queue
+2025-09-27 09:01:28,768 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php to ingest queue
+2025-09-27 09:01:28,915 - Knowledge - INFO - knowledge worker kw11 start
+2025-09-27 09:01:28,916 - Knowledge - INFO - worker kw12 created with dedicated MongoDB connection (total: 12)
+2025-09-27 09:01:28,306 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:29,198 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html
+2025-09-27 09:01:29,527 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:29,635 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php
+2025-09-27 09:01:29,716 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css
+2025-09-27 09:01:29,770 - Knowledge - INFO - worker kw10 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md from ingest queue
+2025-09-27 09:01:29,816 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:29,816 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:29,816 - Knowledge - INFO - worker kw4 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php from ingest queue
+2025-09-27 09:01:29,817 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css to ingest queue
+2025-09-27 09:01:29,967 - Knowledge - INFO - knowledge worker kw12 start
+2025-09-27 09:01:29,969 - Knowledge - INFO - worker kw13 created with dedicated MongoDB connection (total: 13)
+2025-09-27 09:01:30,086 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql
+2025-09-27 09:01:30,249 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php
+2025-09-27 09:01:30,548 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md
+2025-09-27 09:01:30,645 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:30,743 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:30,840 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php
+2025-09-27 09:01:30,930 - Knowledge - INFO - worker kw11 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php from ingest queue
+2025-09-27 09:01:30,977 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:30,977 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:30,977 - Knowledge - INFO - worker kw5 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php from ingest queue
+2025-09-27 09:01:30,978 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html to ingest queue
+2025-09-27 09:01:31,094 - Knowledge - INFO - knowledge worker kw13 start
+2025-09-27 09:01:31,096 - Knowledge - INFO - worker kw14 created with dedicated MongoDB connection (total: 14)
+2025-09-27 09:01:31,478 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css
+2025-09-27 09:01:31,555 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html
+2025-09-27 09:01:31,766 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php
+2025-09-27 09:01:31,821 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:31,940 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:32,077 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php
+2025-09-27 09:01:32,135 - Knowledge - INFO - worker kw12 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html from ingest queue
+2025-09-27 09:01:32,223 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:32,223 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:32,223 - Knowledge - INFO - worker kw6 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css from ingest queue
+2025-09-27 09:01:32,223 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql to ingest queue
+2025-09-27 09:01:32,338 - Knowledge - INFO - knowledge worker kw14 start
+2025-09-27 09:01:32,340 - Knowledge - INFO - worker kw15 created with dedicated MongoDB connection (total: 15)
+2025-09-27 09:01:32,679 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php
+2025-09-27 09:01:32,791 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css
+2025-09-27 09:01:33,003 - Knowledge - INFO - Thread kw12 - File login_page.html - Remaining files in queue: 4
+2025-09-27 09:01:33,115 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:33,193 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:33,297 - Knowledge - INFO - Thread kw6 - File ticket page.css - Remaining files in queue: 4
+2025-09-27 09:01:33,397 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php to ingest queue
+2025-09-27 09:01:33,578 - Knowledge - INFO - knowledge worker kw15 start
+2025-09-27 09:01:33,580 - Knowledge - INFO - worker kw16 created with dedicated MongoDB connection (total: 16)
+2025-09-27 09:01:33,947 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html
+2025-09-27 09:01:34,028 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md
+2025-09-27 09:01:34,139 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php
+2025-09-27 09:01:34,218 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css
+2025-09-27 09:01:34,321 - Knowledge - INFO - worker kw13 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css from ingest queue
+2025-09-27 09:01:34,415 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:35,089 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:34,415 - Knowledge - INFO - worker kw1 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php from ingest queue
+2025-09-27 09:01:34,415 - Knowledge - INFO - worker kw14 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css from ingest queue
+2025-09-27 09:01:34,463 - Knowledge - INFO - worker kw7 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html from ingest queue
+2025-09-27 09:01:34,464 - Knowledge - INFO - worker kw15 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql from ingest queue
+2025-09-27 09:01:34,464 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html to ingest queue
+2025-09-27 09:01:34,493 - Knowledge - INFO - knowledge worker kw16 start
+2025-09-27 09:01:34,998 - Knowledge - INFO - Thread kw13 - File login_page.css - Remaining files in queue: 1
+2025-09-27 09:01:34,415 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:35,197 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php
+2025-09-27 09:01:35,284 - Knowledge - INFO - Thread kw1 - File passenger info.php - Remaining files in queue: 1
+2025-09-27 09:01:35,389 - Knowledge - INFO - Thread kw14 - File sign-up.css - Remaining files in queue: 1
+2025-09-27 09:01:35,495 - Knowledge - INFO - Thread kw7 - File sign-up.html - Remaining files in queue: 1
+2025-09-27 09:01:35,585 - Knowledge - INFO - Thread kw15 - File online_bus (1).sql - Remaining files in queue: 1
+2025-09-27 09:01:35,737 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css to ingest queue
+2025-09-27 09:01:35,883 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css
+2025-09-27 09:01:35,952 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:36,130 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php
+2025-09-27 09:01:36,229 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css
+2025-09-27 09:01:36,342 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html
+2025-09-27 09:01:36,433 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql
+2025-09-27 09:01:36,535 - Knowledge - INFO - worker kw8 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php from ingest queue
+2025-09-27 09:01:36,605 - Knowledge - INFO - worker kw2 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html from ingest queue
+2025-09-27 09:01:36,605 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php to ingest queue
+2025-09-27 09:01:36,721 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php
+2025-09-27 09:01:37,212 - Knowledge - INFO - Thread kw8 - File payment page.php - Remaining files in queue: 1
+2025-09-27 09:01:37,317 - Knowledge - INFO - Thread kw2 - File home page.html - Remaining files in queue: 1
+2025-09-27 09:01:37,602 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css
+2025-09-27 09:01:37,671 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php
+2025-09-27 09:01:37,674 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html
+2025-09-27 09:01:37,711 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css to ingest queue
+2025-09-27 09:01:37,768 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html
+2025-09-27 09:01:37,883 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css
+2025-09-27 09:01:38,059 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html
+2025-09-27 09:01:38,166 - Knowledge - INFO - worker kw16 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css from ingest queue
+2025-09-27 09:01:38,167 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md to ingest queue
+2025-09-27 09:01:38,556 - Knowledge - INFO - Thread kw16 - File landing page.css - Remaining files in queue: 2
+2025-09-27 09:01:38,647 - Knowledge - INFO - worker kw9 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php from ingest queue
+2025-09-27 09:01:38,703 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php to ingest queue
+2025-09-27 09:01:38,748 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css
+2025-09-27 09:01:38,844 - Knowledge - INFO - Thread kw9 - File sign-up.php - Remaining files in queue: 2
+2025-09-27 09:01:38,928 - Knowledge - INFO - worker kw3 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css from ingest queue
+2025-09-27 09:01:38,929 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:38,930 - Knowledge - INFO - worker kw10 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md from ingest queue
+2025-09-27 09:01:38,930 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php to ingest queue
+2025-09-27 09:01:39,124 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php
+2025-09-27 09:01:39,211 - Knowledge - INFO - Thread kw3 - File home page.css - Remaining files in queue: 1
+2025-09-27 09:01:39,322 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:39,439 - Knowledge - INFO - Thread kw10 - File README.md - Remaining files in queue: 1
+2025-09-27 09:01:39,544 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:39,545 - Knowledge - INFO - worker kw4 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php from ingest queue
+2025-09-27 09:01:39,545 - Knowledge - INFO - worker kw11 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php from ingest queue
+2025-09-27 09:01:39,546 - Knowledge - INFO - adding /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php to ingest queue
+2025-09-27 09:01:39,749 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css
+2025-09-27 09:01:39,848 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.html
+2025-09-27 09:01:39,940 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md
+2025-09-27 09:01:40,050 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:40,164 - Knowledge - INFO - Thread kw4 - File login_page.php - Remaining files in queue: 0
+2025-09-27 09:01:40,265 - Knowledge - INFO - Thread kw11 - File ticket page.php - Remaining files in queue: 0
+2025-09-27 09:01:40,339 - Knowledge - INFO - worker kw5 pull /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php from ingest queue
+2025-09-27 09:01:40,669 - Knowledge - INFO - Fast-track processing for simple file: /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md
+2025-09-27 09:01:40,749 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.css
+2025-09-27 09:01:40,875 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php
+2025-09-27 09:01:41,007 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php
+2025-09-27 09:01:41,137 - Knowledge - INFO - Thread kw5 - File landing_page.php - Remaining files in queue: 0
+2025-09-27 09:01:41,263 - Knowledge - INFO - done fast ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md
+2025-09-27 09:01:41,473 - Knowledge - INFO - Fast-track processing for simple file: /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php
+2025-09-27 09:01:41,663 - Knowledge - INFO - start ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php
+2025-09-27 09:01:41,773 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md
+2025-09-27 09:01:41,876 - Knowledge - INFO - done fast ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php
+2025-09-27 09:01:42,106 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:42,219 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php
+2025-09-27 09:01:42,290 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:42,419 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:42,500 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/README.md
+2025-09-27 09:01:42,593 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:42,796 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.php
+2025-09-27 09:01:43,871 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css
+2025-09-27 09:01:43,946 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css
+2025-09-27 09:01:44,067 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:44,169 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:44,246 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/login_page.css
+2025-09-27 09:01:45,656 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php
+2025-09-27 09:01:45,735 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php
+2025-09-27 09:01:45,851 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:45,930 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css
+2025-09-27 09:01:45,936 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:46,018 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css
+2025-09-27 09:01:46,092 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/passenger info.php
+2025-09-27 09:01:46,242 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html
+2025-09-27 09:01:46,245 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:46,438 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html
+2025-09-27 09:01:46,522 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:46,634 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql
+2025-09-27 09:01:46,645 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:46,750 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.css
+2025-09-27 09:01:46,836 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql
+2025-09-27 09:01:46,930 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:47,173 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:47,282 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.html
+2025-09-27 09:01:47,383 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:47,575 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/db/online_bus (1).sql
+2025-09-27 09:01:47,901 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html
+2025-09-27 09:01:48,003 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html
+2025-09-27 09:01:48,102 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:48,190 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:48,267 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.html
+2025-09-27 09:01:48,974 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css
+2025-09-27 09:01:49,066 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css
+2025-09-27 09:01:49,180 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:49,210 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css
+2025-09-27 09:01:49,257 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:49,375 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css
+2025-09-27 09:01:49,387 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php
+2025-09-27 09:01:49,523 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing page.css
+2025-09-27 09:01:49,620 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:49,712 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php
+2025-09-27 09:01:49,902 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:49,993 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:50,064 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/home page.css
+2025-09-27 09:01:50,191 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:50,193 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php
+2025-09-27 09:01:50,407 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/payment page.php
+2025-09-27 09:01:50,520 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php
+2025-09-27 09:01:50,852 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php
+2025-09-27 09:01:50,953 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php
+2025-09-27 09:01:51,133 - Knowledge - INFO - persist search terms embedding for payment page.php
+2025-09-27 09:01:51,269 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:51,270 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:51,357 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:51,368 - Knowledge - INFO - done ingest for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php
+2025-09-27 09:01:51,442 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:51,520 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/sign-up.php
+2025-09-27 09:01:51,615 - Knowledge - INFO - process ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php
+2025-09-27 09:01:51,725 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/landing_page.php
+2025-09-27 09:01:52,248 - Knowledge - INFO - persist search terms embedding for sign-up.php
+2025-09-27 09:01:52,362 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/GetBus---online-bus-booking-website-2918.git:kavia-main
+2025-09-27 09:01:52,452 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fa9793cd410>
+2025-09-27 09:01:52,570 - Knowledge - INFO - persist ingested knowledge for /app/data/kaviademo4200/2918/b6284pc/GetBus---online-bus-booking-website-2918/ticket page.php
+2025-09-27 09:01:53,040 - Knowledge - INFO - persist search terms embedding for ticket page.php
+2025-09-27 09:01:53,126 - Knowledge - INFO - Knowledge creation complete
+2025-09-27 09:01:53,227 - Knowledge - INFO - Updating org costs, total cost: 0.0034886
+2025-09-27 09:01:53,725 - Knowledge - INFO - Saving knowledge to Redis...
+2025-09-27 09:01:53,864 - Knowledge - INFO - Knowledge saved to Redis successfully
