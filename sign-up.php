@@ -1,21 +1,23 @@
 <?php
-$name = $_POST['usrnam_name'];
-$email = $_POST['mail_name'];
-$number = $_POST['contct_name'];
-$pswrd = $_POST['pass_name'];
-$cpswrd = $_POST['cpass_name'];
+require_once __DIR__ . '/config.php';
 
-// echo($name);
-// echo($number);
-// echo($pswrd);
-// echo($cpswrd);
+$name   = isset($_POST['usrnam_name']) ? $_POST['usrnam_name'] : '';
+$email  = isset($_POST['mail_name']) ? $_POST['mail_name'] : '';
+$number = isset($_POST['contct_name']) ? $_POST['contct_name'] : '';
+$pswrd  = isset($_POST['pass_name']) ? $_POST['pass_name'] : '';
+$cpswrd = isset($_POST['cpass_name']) ? $_POST['cpass_name'] : '';
 
-
-$db=mysqli_connect('localhost','root','','online_bus') or die("Could not connect to Database");
+if ($name === '' || $email === '' || $number === '' || $pswrd === '' || $cpswrd === '') {
+    echo("<font color='red' size='5'>All fields are required.</font>");
+    exit;
+}
 
 $querry = "INSERT into user__details(name, email, password, cont_num) VALUES('$name', '$email', '$pswrd', $number)";
-mysqli_query($db, $querry) or die("Could not execute querry");
-// echo("<font color= 'green' size= '5'>Data inserted Successfully</font>");
+if (!mysqli_query($db, $querry)) {
+    echo("Could not execute query");
+    exit;
+}
 
 header('location: login_page.html');
+exit;
 ?>

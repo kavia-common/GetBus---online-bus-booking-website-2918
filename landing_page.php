@@ -136,7 +136,7 @@
         <br><br>
         <?php
         session_start();
-
+        require_once __DIR__ . '/config.php';
         ?>
 
         <input name="submit" type="submit" value="GET DETAILS" class="submit">
@@ -157,12 +157,12 @@
             $_SESSION["to"] = $_POST['to_name'];
             $_SESSION["dt"] = $_POST['date_name'];
 
-            $db = mysqli_connect('localhost', 'root', '', 'online_bus') or die("Could not connect to Database");
-
             $querry = "SELECT * FROM bus_details WHERE source='$frm' AND destination='$to'";
 
-
-            if ($result = mysqli_query($db, $querry) or die("Could not execute querry")) {
+            $result = mysqli_query($db, $querry);
+            if (!$result) {
+                echo "<div style='color:red;'>Could not execute query.</div>";
+            } else {
                 print('<table style="border: 2px solid blue;">
     <tr>
         <th>BUS NAME</th>
@@ -170,7 +170,6 @@
         <th>VACANT SEATS</th>
         <th>SELECT</th>
     </tr>');
-
                 while ($row = mysqli_fetch_row($result)) {
                     print('<tr>
         <td>' . $row[0] . '</td>

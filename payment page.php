@@ -74,32 +74,27 @@
 
     <?php
     session_start();
+    require_once __DIR__ . '/config.php';
+
     $_SESSION['no'] = $_POST["num_name"];
     $a = 1;
     while ($a <= $_POST["num_name"]) {
         $_SESSION['pname' . $a] = $_POST['col2_' . $a];
         $_SESSION['pconno' . $a] = $_POST['col3_' . $a];
         $_SESSION['page' . $a] = $_POST['col4_' . $a];
-        // print($_POST['col2_' . $a]);
-        // print("&emsp;");
-        // print($_POST['col3_' . $a]);
-        // print("&emsp;");
-        // print($_POST['col4_' . $a]);
         $a++;
-        // print("<br>");
     }
-
 
     $z = $_POST['num_name'];
     $_SESSION["hdcunt"] = $_POST['num_name'];
     $x = $_SESSION['bsnm'];
 
-    $db = mysqli_connect('localhost', 'root', '', 'online_bus') or die("Could not connect to Database");
-
     $querry = "UPDATE bus_details SET seats_available = seats_available - $z WHERE bus_name = '$x'";
-    $result = mysqli_query($db, $querry) or die("Could not execute querry" . mysqli_error($db));
-
-
+    $result = mysqli_query($db, $querry);
+    if (!$result) {
+        echo "<div style='color:red;'>Could not execute query.</div>";
+        // You might choose to exit or handle differently
+    }
     ?>
 
     <script>
